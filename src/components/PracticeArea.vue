@@ -1,87 +1,72 @@
+<script setup lang="ts">
+import PracticeAreaCard from './PracticeAreaCard.vue'
+import IconBusinessLaw from './icons/IconBusinessLaw.vue'
+import IconEducationLaw from './icons/IconEducationLaw.vue'
+import IconFamilyLaw from './icons/IconFamilyLaw.vue'
+import IconFinanceLaw from './icons/IconFinanceLaw.vue'
+</script>
 <template>
-  <div class="item">
-    <i>
-      <slot name="icon"></slot>
-    </i>
-    <div class="details">
-      <h3>
-        <slot name="heading"></slot>
-      </h3>
-      <slot></slot>
+  <div class="bg-[#FBFBFB] py-[70px]">
+    <div class="container">
+      <div class="w-[55%] mx-auto text-center mt-[5px] mb-[55px]">
+        <h2
+          class="text-gray font-medium mb-[15px] relative before:content-[''] before:absolute before:h-[3px] before:w-[70px] before:border before:border-gold before:bg-gold before:-top-[5px] before:right-0 before:left-0 before:ml-auto before:mr-auto"
+        >
+          Practice Area
+        </h2>
+        <p class="text-black">
+          we offer different variations of the law, no matter what your case is we are here for you
+          with vast and experienced attorneys
+        </p>
+      </div>
+
+      <div class="grid grid-cols-4 gap-4">
+        <PracticeAreaCard link="#">
+          <template #icon>
+            <IconBusinessLaw />
+          </template>
+          <template #heading>Business Law</template>
+          <template #text
+            >we offer different variations of the law, no matter what your case is we are here for
+            you with vast and experienced attorneys</template
+          >
+        </PracticeAreaCard>
+
+        <PracticeAreaCard link="#">
+          <template #icon>
+            <IconFinanceLaw />
+          </template>
+          <template #heading>Finance Law</template>
+          <template #text
+            >we offer different variations of the law, no matter what your case is we are here for
+            you with vast and experienced attorneys</template
+          >
+        </PracticeAreaCard>
+
+        <PracticeAreaCard link="#">
+          <template #icon>
+            <IconFamilyLaw />
+          </template>
+          <template #heading>Family Law</template>
+          <template #text
+            >we offer different variations of the law, no matter what your case is we are here for
+            you with vast and experienced attorneys</template
+          >
+        </PracticeAreaCard>
+
+        <PracticeAreaCard link="#">
+          <template #icon>
+            <IconEducationLaw />
+          </template>
+          <template #heading>Education Law</template>
+          <template #text
+            >we offer different variations of the law, no matter what your case is we are here for
+            you with vast and experienced attorneys</template
+          >
+        </PracticeAreaCard>
+      </div>
     </div>
   </div>
 </template>
 
-<style scoped>
-.item {
-  margin-top: 2rem;
-  display: flex;
-  position: relative;
-}
-
-.details {
-  flex: 1;
-  margin-left: 1rem;
-}
-
-i {
-  display: flex;
-  place-items: center;
-  place-content: center;
-  width: 32px;
-  height: 32px;
-
-  color: var(--color-text);
-}
-
-h3 {
-  font-size: 1.2rem;
-  font-weight: 500;
-  margin-bottom: 0.4rem;
-  color: var(--color-heading);
-}
-
-@media (min-width: 1024px) {
-  .item {
-    margin-top: 0;
-    padding: 0.4rem 0 1rem calc(var(--section-gap) / 2);
-  }
-
-  i {
-    top: calc(50% - 25px);
-    left: -26px;
-    position: absolute;
-    border: 1px solid var(--color-border);
-    background: var(--color-background);
-    border-radius: 8px;
-    width: 50px;
-    height: 50px;
-  }
-
-  .item:before {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    bottom: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:after {
-    content: ' ';
-    border-left: 1px solid var(--color-border);
-    position: absolute;
-    left: 0;
-    top: calc(50% + 25px);
-    height: calc(50% - 25px);
-  }
-
-  .item:first-of-type:before {
-    display: none;
-  }
-
-  .item:last-of-type:after {
-    display: none;
-  }
-}
-</style>
+<style></style>
