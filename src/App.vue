@@ -6,6 +6,7 @@ import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import PracticeArea from './components/PracticeArea.vue'
+import AttorneysSection from './components/AttorneysSection.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import PracticeArea from './components/PracticeArea.vue'
     <template v-slot:main>
       <AboutSection />
       <PracticeArea />
+      <AttorneysSection />
     </template>
     <template v-slot:footer>
       <FooterSection />
