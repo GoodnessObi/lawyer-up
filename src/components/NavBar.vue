@@ -2,10 +2,10 @@
 
 <template>
   <nav class="bg-white">
-    <div class="container py-6 flex justify-between align-middle">
+    <div class="container py-6 flex justify-between items-center">
       <img alt="Lawyer-up logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
-      <div class="flex justify-between align-middle gap-x-10">
+      <div class="flex justify-between items-center gap-x-10">
         <a
           href=""
           target="_blank"
