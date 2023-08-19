@@ -5,6 +5,7 @@ import NavBar from './components/NavBar.vue'
 import HeroSection from './components/HeroSection.vue'
 import AboutSection from './components/AboutSection.vue'
 import FooterSection from './components/FooterSection.vue'
+import PracticeArea from './components/PracticeArea.vue'
 </script>
 
 <template>
@@ -15,6 +16,7 @@ import FooterSection from './components/FooterSection.vue'
     </template>
     <template v-slot:main>
       <AboutSection />
+      <PracticeArea />
     </template>
     <template v-slot:footer>
       <FooterSection />
