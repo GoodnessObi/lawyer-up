@@ -1,0 +1,24 @@
+<script setup lang="ts">
+defineProps<{
+  type: 'primary' | 'secondary'
+}>()
+</script>
+<template>
+  <button :class="`btn btn-${type}`">
+    <slot />
+  </button>
+</template>
+
+<style>
+.btn {
+  @apply py-[14px] px-[25px] text-white text-lg rounded-[5px];
+}
+
+.btn-primary {
+  @apply bg-gold-light;
+}
+
+.btn-secondary {
+  @apply bg-gray-dark;
+}
+</style>
