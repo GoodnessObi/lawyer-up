@@ -38,7 +38,7 @@ const users: {
 <template>
   <div class="bg-blue-dark py-14 text-cream">
     <div class="container">
-      <SectionHeader>
+      <SectionHeader headingColor="text-cream" textColor="text-cream" textAlign="text-center">
         <template #heading>Meet Our Attorneys</template>
         <template #description
           >we offer different variations of the law, no matter what your case is we are here for you

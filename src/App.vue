@@ -7,6 +7,8 @@ import AboutSection from './components/AboutSection.vue'
 import FooterSection from './components/FooterSection.vue'
 import PracticeArea from './components/PracticeArea.vue'
 import AttorneysSection from './components/AttorneysSection.vue'
+import TestimonialSection from './components/TestimonialSection.vue'
+import ContactSection from './components/ContactSection.vue'
 </script>
 
 <template>
@@ -19,6 +21,10 @@ import AttorneysSection from './components/AttorneysSection.vue'
       <AboutSection />
       <PracticeArea />
       <AttorneysSection />
+      <div class="bg-[#fbfbfb] mt-[70px]">
+        <TestimonialSection />
+        <ContactSection />
+      </div>
     </template>
     <template v-slot:footer>
       <FooterSection />

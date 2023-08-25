@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import SectionHeader from './SectionHeader.vue'
 import PracticeAreaCard from './PracticeAreaCard.vue'
 import IconBusinessLaw from './icons/IconBusinessLaw.vue'
 import IconEducationLaw from './icons/IconEducationLaw.vue'
@@ -8,17 +9,13 @@ import IconFinanceLaw from './icons/IconFinanceLaw.vue'
 <template>
   <div class="bg-[#FBFBFB] py-[70px]">
     <div class="container">
-      <div class="w-[55%] mx-auto text-center mt-[5px] mb-[55px]">
-        <h2
-          class="text-gray font-medium mb-[15px] relative before:content-[''] before:absolute before:h-[3px] before:w-[70px] before:border before:border-gold before:bg-gold before:-top-[5px] before:right-0 before:left-0 before:ml-auto before:mr-auto"
-        >
-          Practice Area
-        </h2>
-        <p class="text-black">
+      <SectionHeader headingColor="text-gray" textColor="text-black" textAlign="text-center">
+        <template #heading> Practice Area </template>
+        <template #description>
           we offer different variations of the law, no matter what your case is we are here for you
-          with vast and experienced attorneys
-        </p>
-      </div>
+          with vast and experienced attorneys</template
+        >
+      </SectionHeader>
 
       <div class="grid grid-cols-4 gap-4">
         <PracticeAreaCard link="#">

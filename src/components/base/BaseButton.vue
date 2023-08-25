@@ -1,10 +1,11 @@
 <script setup lang="ts">
 defineProps<{
   type: 'primary' | 'secondary'
+  btnClass?: string
 }>()
 </script>
 <template>
-  <button :class="`btn btn-${type}`">
+  <button :class="`btn btn-${type} ${btnClass}`">
     <slot />
   </button>
 </template>
