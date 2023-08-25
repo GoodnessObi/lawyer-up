@@ -17,7 +17,7 @@ import IconFinanceLaw from './icons/IconFinanceLaw.vue'
         >
       </SectionHeader>
 
-      <div class="grid grid-cols-4 gap-4">
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
         <PracticeAreaCard link="#">
           <template #icon>
             <IconBusinessLaw />

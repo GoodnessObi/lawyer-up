@@ -6,9 +6,9 @@ import BaseButton from './base/BaseButton.vue'
 
 <template>
   <Section class="py-[70px]">
-    <div class="container flex flex-row min-h-[300px]">
+    <div class="container flex flex-col md:flex-row min-h-[300px]">
       <div
-        class="bg-white shadow-[-3px_4px_20px_0px_rgba(0,0,0,0.25)] basis-3/5 p-[50px] pb-[70px]"
+        class="bg-white shadow-[-3px_4px_20px_0px_rgba(0,0,0,0.25)] md:basis-3/5 p-[50px] pb-[70px]"
       >
         <h3 class="font-normal">Send us a <span class="text-gold">Message</span></h3>
 
@@ -35,7 +35,7 @@ import BaseButton from './base/BaseButton.vue'
         </div>
       </div>
 
-      <div class="bg-blue-dark text-white basis-2/5 px-8 py-[50px]">
+      <div class="bg-blue-dark text-white md:basis-2/5 px-8 py-[50px]">
         <h3 class="text-center font-normal uppercase pb-8">Contact Us</h3>
         <div>
           <div class="flex flex-row gap-4 items-center pb-[50px]">

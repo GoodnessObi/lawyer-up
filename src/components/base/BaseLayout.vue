@@ -1,7 +1,9 @@
 <script setup lang="ts"></script>
 
 <template>
-  <header class="bg-cover md:bg-contain bg-[url('/src/assets/hero.png')] min-h-[889px]">
+  <header
+    class="bg-cover bg-[40%] md:bg-center bg-no-repeat md:bg-cover bg-[url('/src/assets/hero.png')] min-h-[80px] md:min-h-[556px] lg:min-h-[889px]"
+  >
     <slot name="header" />
   </header>
   <main>

@@ -4,8 +4,8 @@ import AboutCard from './AboutCard.vue'
 
 <template>
   <section class="bg-blue-light text-white py-[56px]">
-    <div class="container grid grid-cols-2">
-      <div>
+    <div class="container grid md:grid-cols-2">
+      <div class="order-last md:-order-1 mt-14 md:mb-0">
         <div class="mb-5">
           <h2
             class="relative before:content-[''] before:absolute before:h-[3px] before:w-[70px] before:border before:border-gold before:bg-gold before:-top-[5px]"

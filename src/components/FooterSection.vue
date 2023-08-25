@@ -7,9 +7,9 @@ import IconYoutube from './icons/IconYoutube.vue'
 <template>
   <section class="text-cream bg-blue-dark py-[50px]">
     <div class="container">
-      <div class="flex flex-row justify-between mb-[70px]">
-        <div class="basis-1/2 w-1/2 flex flex-row justify-between pr-10">
-          <div class="basis-2/3">
+      <div class="flex flex-col md:flex-row justify-between mb-[70px]">
+        <div class="md:basis-1/2 md:w-1/2 flex flex-col md:flex-row justify-between pr-10">
+          <div class="md:basis-2/3 mb-14 md:mb-0">
             <img
               alt="Lawyer-up logo"
               class=""
@@ -22,9 +22,9 @@ import IconYoutube from './icons/IconYoutube.vue'
               fames facilisis ut felis, accumsan.
             </p>
           </div>
-          <div class="flex flex-col">
+          <div class="flex flex-col mb-12 md:mb-0">
             <h5
-              class="w-full mb-6 relative before:content-[''] before:absolute before:border before:w-[80%] before:border-gold before:bottom-[-4px] before:h-0"
+              class="w-full mb-6 relative before:content-[''] before:absolute before:border before:w-[40%] md:before:w-[80%] before:border-gold before:bottom-[-4px] before:h-0"
             >
               Index
             </h5>
@@ -53,10 +53,10 @@ import IconYoutube from './icons/IconYoutube.vue'
           </div>
         </div>
 
-        <div class="basis-1/2 w-1/2 flex flex-row justify-around">
-          <div class="flex flex-col">
+        <div class="md:basis-1/2 md:w-1/2 flex flex-col md:flex-row md:justify-around">
+          <div class="flex flex-col mb-12 md:mb-0">
             <h5
-              class="w-full mb-6 relative before:content-[''] before:absolute before:border before:w-[80%] before:border-gold before:bottom-[-4px] before:h-0"
+              class="w-full mb-6 relative before:content-[''] before:absolute before:border before:w-[40%] md:before:w-[80%] before:border-gold before:bottom-[-4px] before:h-0"
             >
               Contact us
             </h5>
@@ -64,9 +64,9 @@ import IconYoutube from './icons/IconYoutube.vue'
 
             <a href="" target="_blank" rel="noopener" class="mb-4 font-normal">856 - 693 - 456</a>
           </div>
-          <div class="">
+          <div class="mb-12 md:mb-0">
             <h5
-              class="w-full mb-12 relative before:content-[''] before:absolute before:border before:w-[80%] before:border-gold before:bottom-[-4px] before:h-0"
+              class="w-full mb-12 relative before:content-[''] before:absolute before:border before:w-[40%] md:before:w-[80%] before:border-gold before:bottom-[-4px] before:h-0"
             >
               Follow us
             </h5>

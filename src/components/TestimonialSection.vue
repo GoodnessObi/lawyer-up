@@ -9,7 +9,7 @@ import SectionHeader from './SectionHeader.vue'
         <template #heading>Testimonials</template>
       </SectionHeader>
 
-      <div class="grid grid-cols-3 gap-[50px]">
+      <div class="grid md:grid-cols-3 gap-[50px]">
         <div class="p-[30px] bg-white text-gray">
           <p class="font-normal mb-[30px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

@@ -46,7 +46,7 @@ const users: {
         >
       </SectionHeader>
 
-      <div class="grid grid-cols-4 gap-[60px]">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-[60px]">
         <AttorneyCard v-for="user in users" :key="`${user.name}-${user.id}`" :user="user" />
       </div>
     </div>
