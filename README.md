@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design](./assets/design.png)
+![Design](./src/assets/design.png)
 
 ### Links
 
