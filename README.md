@@ -1,46 +1,43 @@
-# .
+# Lawyer-up landing page
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a landing page for a hypothetical Law firm.
 
-## Recommended IDE Setup
+## Table of contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-## Type Support for `.vue` Imports in TS
+## Overview
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+### The challenge
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+Users should be able to:
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
 
-## Customize configuration
+### Screenshot
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+![Design](./assets/design.png)
 
-## Project Setup
+### Links
 
-```sh
-npm install
-```
+- Solution URL: [https://github.com/GoodnessObi/lawyer-up](https://github.com/GoodnessObi/lawyer-up)
+- Live Site URL: [https://lawyer-up.netlify.app/](https://lawyer-up.netlify.app/)
 
-### Compile and Hot-Reload for Development
+## My process
 
-```sh
-npm run dev
-```
+### Built with
 
-### Type-Check, Compile and Minify for Production
+- Semantic HTML5 markup
+- [Typescript](https://www.typescriptlang.org/docs/)
+- [Vuejs](https://vuejs.org/) - JS library
+- [Tailwind](https://tailwindui.com/) - For styles
 
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+## Author
+- LinkedIn - [Goodness Obi](https://www.linkedin.com/in/goodnessobi/)
