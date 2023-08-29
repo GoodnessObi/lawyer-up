@@ -11,15 +11,15 @@ defineProps<{
   }
 }>()
 
-const userImg = computed((user: { imagePath: string; name: string; title: string; id: string }) => {
-  return new URL(`@/asswts/${user.imagePath}`, import.meta.url)
-})
+// const userImg = computed((user: { imagePath: string; name: string; title: string; id: string }) => {
+//   return new URL(`@/assets/${user.imagePath}`, import.meta.url)
+// })
 </script>
 
 <template>
   <div>
     <div class="relative">
-      <img :src="userImg" :alt="user.name" />
+      <img :src="`/${user.imagePath}`" :alt="user.name" />
       <a
         :href="`/#/${user.id}`"
         class="absolute w-[75px] h-[75px] bg-white drop-shadow-[-5px_4px_10px_rgba(0,0,0,0.25)] rounded-full flex justify-center items-center bottom-0 right-0"

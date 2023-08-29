@@ -5,7 +5,7 @@ import BaseButton from './base/BaseButton.vue'
 </script>
 
 <template>
-  <Section class="py-[70px]">
+  <section class="py-[70px]">
     <div class="container flex flex-col md:flex-row min-h-[300px]">
       <div
         class="bg-white shadow-[-3px_4px_20px_0px_rgba(0,0,0,0.25)] md:basis-3/5 p-[50px] pb-[70px]"
@@ -132,5 +132,5 @@ import BaseButton from './base/BaseButton.vue'
         </div>
       </div>
     </div>
-  </Section>
+  </section>
 </template>
