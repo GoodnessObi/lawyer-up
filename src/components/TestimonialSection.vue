@@ -17,7 +17,7 @@ import SectionHeader from './SectionHeader.vue'
           </p>
           <div class="flex items-center gap-4">
             <img src="/src/assets/avatar.png" />
-            <span class="font-medium text-lg">Tega Matthew</span>
+            <span class="font-medium text-base md:text-lg">Tega Matthew</span>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ import SectionHeader from './SectionHeader.vue'
           </p>
           <div class="flex items-center gap-4">
             <img src="/src/assets/avatar.png" />
-            <span class="font-medium text-lg">Tega Matthew</span>
+            <span class="font-medium text-base md:text-lg">Tega Matthew</span>
           </div>
         </div>
 
@@ -39,7 +39,7 @@ import SectionHeader from './SectionHeader.vue'
           </p>
           <div class="flex items-center gap-4">
             <img src="/src/assets/avatar.png" />
-            <span class="font-medium text-lg">Tega Matthew</span>
+            <span class="font-medium text-base md:text-lg">Tega Matthew</span>
           </div>
         </div>
       </div>

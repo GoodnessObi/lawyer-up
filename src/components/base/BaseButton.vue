@@ -12,7 +12,7 @@ defineProps<{
 
 <style>
 .btn {
-  @apply py-[14px] px-[25px] text-white text-lg rounded-[5px];
+  @apply py-[14px] px-[17px] md:px-[25px] text-white text-sm md:text-base lg:text-lg rounded-[5px];
 }
 
 .btn-primary {

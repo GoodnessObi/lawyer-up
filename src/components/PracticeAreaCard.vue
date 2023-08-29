@@ -15,9 +15,9 @@ defineProps<{
     </i>
 
     <div class="mt-6">
-      <h3 class="text-black">
+      <h4 class="text-black">
         <slot name="heading" />
-      </h3>
+      </h4>
       <p class="my-4 text-gray-dark">
         <slot name="text" />
       </p>
