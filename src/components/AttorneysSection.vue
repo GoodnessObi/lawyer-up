@@ -3,31 +3,31 @@ import AttorneyCard from './AttorneyCard.vue'
 import SectionHeader from './SectionHeader.vue'
 
 const users: {
-  imageUrl: string
+  imagePath: string
   name: string
   title: string
   id: string
 }[] = [
   {
-    imageUrl: 'src/assets/gbenga-philip.png',
+    imagePath: 'gbenga-philip.png',
     name: 'Gbenga Philip',
     title: 'Criminal Lawyer',
     id: '1'
   },
   {
-    imageUrl: 'src/assets/tega-mathew.png',
+    imagePath: 'tega-mathew.png',
     name: 'Tega Matthew',
     title: 'Family Lawyer',
     id: '2'
   },
   {
-    imageUrl: 'src/assets/isaac-tope.png',
+    imagePath: 'isaac-tope.png',
     name: 'Isaac Tope',
     title: 'Education Lawyer',
     id: '3'
   },
   {
-    imageUrl: 'src/assets/greg-john.png',
+    imagePath: 'greg-john.png',
     name: 'Greg John',
     title: 'Finance Lawyer',
     id: '4'
