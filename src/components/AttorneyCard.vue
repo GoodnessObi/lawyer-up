@@ -22,7 +22,7 @@ defineProps<{
       <img :src="`/${user.imagePath}`" :alt="user.name" />
       <a
         :href="`/#/${user.id}`"
-        class="absolute w-[75px] h-[75px] bg-white drop-shadow-[-5px_4px_10px_rgba(0,0,0,0.25)] rounded-full flex justify-center items-center bottom-0 right-0"
+        class="absolute w-[45px] h-[45px] lg:w-[75px] lg:h-[75px] bg-white drop-shadow-[-5px_4px_10px_rgba(0,0,0,0.25)] rounded-full flex justify-center items-center bottom-0 right-0"
       >
         <IconArrow />
       </a>
